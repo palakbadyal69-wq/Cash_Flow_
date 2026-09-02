@@ -1,0 +1,53 @@
+[
+  {
+    "id": "tx_20260301_salary",
+    "date": "2026-03-01",
+    "type": "outflow",
+    "category": "salary",
+    "amount": 550000,
+    "source": "Employee Payroll",
+    "status": "paid",
+    "notes": "Monthly team salary payout"
+  },
+  {
+    "id": "tx_20260303_rent",
+    "date": "2026-03-03",
+    "type": "outflow",
+    "category": "rent",
+    "amount": 150000,
+    "source": "WeWork Workspace",
+    "status": "paid",
+    "notes": "Office lease payment"
+  },
+  {
+    "id": "tx_20260308_cust_acme",
+    "date": "2026-03-08",
+    "type": "inflow",
+    "category": "customer_payment",
+    "amount": 650000,
+    "source": "Acme Tech Enterprise",
+    "status": "received",
+    "notes": "Quarterly SaaS license payment"
+  },
+  {
+    "id": "tx_20260405_invest",
+    "date": "2026-04-05",
+    "type": "inflow",
+    "category": "investment",
+    "amount": 1500000,
+    "source": "Blume Ventures Angel Syndicate",
+    "status": "received",
+    "notes": "Seed tranche investment"
+  },
+  {
+    "id": "tx_rec_01_overdue",
+    "date": "2026-07-25",
+    "type": "inflow",
+    "category": "customer_payment",
+    "amount": 450000,
+    "source": "Acme Tech Enterprise",
+    "status": "overdue",
+    "dueDate": "2026-08-05",
+    "notes": "Annual enterprise license installment overdue by 27 days"
+  }
+]

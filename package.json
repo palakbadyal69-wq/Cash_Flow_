@@ -1,0 +1,17 @@
+{
+  "name": "cashflowai",
+  "version": "1.0.0",
+  "description": "Agentic AI Cashflow & Runway Controller for Startups (Razorpay AI Buildathon)",
+  "scripts": {
+    "install-all": "npm --prefix server install && npm --prefix client install",
+    "start": "npx concurrently \"npm --prefix server start\" \"npm --prefix client start\"",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.122.0"
+  }
+}
